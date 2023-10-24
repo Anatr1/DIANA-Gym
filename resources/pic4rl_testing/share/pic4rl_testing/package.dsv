@@ -1,0 +1,6 @@
+source;share/pic4rl_testing/hook/pythonpath.ps1
+source;share/pic4rl_testing/hook/pythonpath.dsv
+source;share/pic4rl_testing/hook/pythonpath.sh
+source;share/pic4rl_testing/hook/ament_prefix_path.ps1
+source;share/pic4rl_testing/hook/ament_prefix_path.dsv
+source;share/pic4rl_testing/hook/ament_prefix_path.sh

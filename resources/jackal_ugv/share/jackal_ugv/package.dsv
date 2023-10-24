@@ -1,0 +1,8 @@
+source;share/jackal_ugv/hook/cmake_prefix_path.ps1
+source;share/jackal_ugv/hook/cmake_prefix_path.dsv
+source;share/jackal_ugv/hook/cmake_prefix_path.sh
+source;share/jackal_ugv/local_setup.bash
+source;share/jackal_ugv/local_setup.dsv
+source;share/jackal_ugv/local_setup.ps1
+source;share/jackal_ugv/local_setup.sh
+source;share/jackal_ugv/local_setup.zsh

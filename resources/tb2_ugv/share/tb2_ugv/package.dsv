@@ -1,0 +1,6 @@
+source;share/tb2_ugv/hook/pythonpath.ps1
+source;share/tb2_ugv/hook/pythonpath.dsv
+source;share/tb2_ugv/hook/pythonpath.sh
+source;share/tb2_ugv/hook/ament_prefix_path.ps1
+source;share/tb2_ugv/hook/ament_prefix_path.dsv
+source;share/tb2_ugv/hook/ament_prefix_path.sh

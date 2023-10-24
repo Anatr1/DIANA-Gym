@@ -1,0 +1,2 @@
+source;share/jackal_ugv/environment/ament_prefix_path.sh
+source;share/jackal_ugv/environment/path.sh

@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <world name="default">
+    <plugin name="gazebo_ros_state" filename="libgazebo_ros_state.so">
+      <ros>
+        <namespace>/test</namespace>
+        <argument>model_states:=model_states_demo</argument>
+      </ros>
+      <update_rate>1.0</update_rate>
+    </plugin>
+    
+    <!-- A global light source -->
+    <include>
+      <uri>model://sun</uri>
+    </include>
+
+    <!-- A ground plane -->
+    <include>
+      <name>MY_ERC23</name>
+      <uri>model://MY_ERC23</uri>
+      <pose>0 0 0 0 0 -1.5707</pose>
+    </include>
+    
+    <!-- Speed up the simulation to the maximum 
+    <physics type="ode">
+      <max_step_size>0.001</max_step_size>
+      <real_time_update_rate>0</real_time_update_rate>
+      <ode>
+        <solver>
+          <iters>50</iters>
+        </solver>
+      </ode>
+    </physics>
+    -->
+
+    <gui fullscreen='0'>
+      <camera name='user_camera'>
+        <pose>0.114245 -3.45755 33.7709 0 1.5698 -0.010384</pose>
+        <view_controller>orbit</view_controller>
+        <projection_type>perspective</projection_type>
+      </camera>
+    </gui>
+  </world>
+</sdf>
