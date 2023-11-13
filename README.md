@@ -8,6 +8,8 @@ It enables the training and monitoring of Reinforcement Learning agents in simul
 
 _DIANA-Gym_ is being developed and maintained by [DIANA](https://github.com/team-diana), a student team from Politecnico di Torino. 
 
+![](assets/video_2023-08-25_22-33-56_compressed.gif)
+
 ---
 
 __Please note that this project is still under development and is to be considered in Beta testing. Fixes and additional features are planned.__
